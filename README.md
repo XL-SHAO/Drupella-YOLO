@@ -57,6 +57,7 @@ Drupella-YOLO/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+```
 
 The structure above highlights the main project-specific files and directories. The ultralytics/ directory contains the modified detection framework, model configurations for the baseline and ablation experiments, and the implementations of the CFCM, HDSA, and ISM modules. The quantification/ directory contains the post-detection tool used for abundance estimation, ruler-based scale calibration, approximate body-length estimation, and size-class classification. Figures used in this README are stored in the images/ directory.
 
