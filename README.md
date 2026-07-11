@@ -67,10 +67,7 @@ Video frames were extracted at 2 s intervals. Visually similar frames were manua
 
 ### Annotation protocol
 
-All images were annotated using LabelImg v1.8.6.
-
-- Annotation target: individual *Drupella* snails;
-- Annotation type: bounding boxes.
+All images were annotated using LabelImg v1.8.6, with individual Drupella snails identified as annotation targets and labeled using bounding boxes. The annotations were saved in the YOLO format for subsequent model training and evaluation.
 
 ### Dataset split
 
