@@ -46,10 +46,7 @@ The workflow consists of four stages:
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two reef sites in Koh Tao, Thailand:
-
-- Chalok Baan Kao Bay;
-- Taa Chaa Bay.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand: Chalok Baan Kao Bay and Taa Chaa Bay. The mean sampling depth was approximately 5 m.
 
 Field surveys were conducted in:
 
@@ -57,8 +54,6 @@ Field surveys were conducted in:
 - August 2023;
 - January 2024; and
 - September 2024.
-
-The mean sampling depth was approximately 5 m.
 
 ### Dataset composition
 
