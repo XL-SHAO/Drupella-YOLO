@@ -1,10 +1,8 @@
-# Drupella-YOLO: Underwater Dataset and Code for Automated Detection and Quantification of *Drupella* Snails
+# Drupella-YOLO: underwater dataset and code for object detection and quantification of *Drupella* spp.
 
-Dataset, annotations, source code, model configurations, pretrained weights, and post-detection quantification tools associated with the paper:
+Dataset, annotations, source code, model configurations, and post-detection quantification tools associated with the paper:
 
 > **A deep learning-based approach for automated detection of small and occluded corallivorous *Drupella* spp. from coral reef imagery**
-
-This repository provides an end-to-end workflow for detecting small, densely aggregated, and partially occluded *Drupella* snails in underwater coral reef imagery. It includes the field-image dataset, expert-verified bounding-box annotations, Drupella-YOLO implementation, model comparison and ablation experiments, visualization tools, and a post-detection pipeline for image-level abundance and approximate body-size estimation.
 
 ---
 
@@ -12,25 +10,22 @@ This repository provides an end-to-end workflow for detecting small, densely agg
 
 ### Project background
 
-Corallivorous *Drupella* snails can occur in dense aggregations on branching corals and may contribute to substantial loss of living coral tissue. Conventional underwater surveys rely heavily on visual inspection and manual counting, which are labor-intensive and may be affected by limited diving time, observer error, coral structural complexity, and partial target occlusion.
-
-This project combines underwater imagery, lightweight object detection, and post-detection quantification to support more reproducible and scalable image-based monitoring of *Drupella* populations. The workflow was developed using data collected in collaboration with the New Heaven Reef Conservation Program in Koh Tao, Thailand.
+Corallivorous *Drupella* snails can occur in dense aggregations on branching corals and may contribute to substantial loss of living coral tissue. Conventional underwater surveys rely heavily on visual inspection and manual counting, which are labor-intensive and may be affected by limited diving time, observer error, coral structural complexity, and partial target occlusion. This project combines underwater imagery, lightweight object detection, and post-detection quantification to support more efficient image-based monitoring of *Drupella* populations. The workflow was developed using data collected in collaboration with the New Heaven Reef Conservation Program in Koh Tao, Thailand.
 
 ### Main contributions
 
 - A field dataset [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) containing both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
-- Expert-verified bounding-box annotations for small, dense, and partially occluded underwater targets.
+- Bounding-box annotations for small, dense, and partially occluded underwater targets.
 - Drupella-YOLO, a lightweight YOLOv13n-based detector incorporating:
   - Complementary Feature Complementary Mapping (CFCM);
   - Hierarchical Dual-Stream Attention (HDSA); and
   - Inverse Sample Module (ISM).
-- Reproducible model-comparison and ablation experiments.
-- Grad-CAM visualization for interpreting model attention.
+- Model-comparison and ablation experiments.
 - A post-detection pipeline for:
   - image-level abundance estimation;
   - ruler-based pixel-to-millimeter conversion;
   - approximate body-length estimation; and
-  - size-class assignment.
+  - size-class classification.
 
 ---
 
