@@ -160,12 +160,12 @@ These measurements should be interpreted as two-dimensional, scale-referenced es
 ---
 # Citation
 If these resources contribute to your research, please consider citing our paper:
-```LaTeX
+```bibtex
 @article{shao2026drupellayolo,
-  title   = {A deep learning-based approach for automated detection of small and occluded corallivorous \textit{Drupella} spp. from coral reef imagery},
-  author  = {Shao, Xinlei and Wang, Jiaqi and Magson, Kirsty and Xu, Weitao and Chen, Jundong and Sasaki, Jun and Zhao, Fan},
-  year    = {2026},
-  note    = {Manuscript submitted for publication}
+  title  = {A deep learning-based approach for automated detection of small and occluded corallivorous {\textit{Drupella}} spp. from coral reef imagery},
+  author = {Shao, Xinlei and Wang, Jiaqi and Magson, Kirsty and Xu, Weitao and Chen, Jundong and Sasaki, Jun and Zhao, Fan},
+  year   = {2026},
+  note   = {Manuscript submitted for publication}
 }
 ```
 # Q & A
