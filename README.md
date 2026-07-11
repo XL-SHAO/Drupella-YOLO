@@ -67,7 +67,7 @@ The structure above highlights the main project-specific files and directories. 
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024. The resulting field dataset contains both still photographs and video-extracted frames of Drupella snails in branching coral habitats and is available as [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024. The resulting field dataset contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats and is available as [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
 
 ### Dataset composition
 
@@ -81,7 +81,7 @@ Video frames were extracted at 2 s intervals. Visually similar frames were manua
 
 ### Annotation protocol
 
-All images were annotated using LabelImg v1.8.6, with individual Drupella snails identified as annotation targets and labeled using bounding boxes. The annotations were saved in the YOLO format for subsequent model training and evaluation.
+All images were annotated using LabelImg v1.8.6, with individual *Drupella* snails identified as annotation targets and labeled using bounding boxes. The annotations were saved in the YOLO format for subsequent model training and evaluation.
 
 ### Dataset split
 
@@ -162,7 +162,7 @@ These measurements should be interpreted as two-dimensional, scale-referenced es
 If these resources contribute to your research, please consider citing our paper:
 ```LaTeX
 @article{shao2026drupellayolo,
-  title   = {A deep learning-based approach for automated detection of small and occluded corallivorous Drupella spp. from coral reef imagery},
+  title   = {A deep learning-based approach for automated detection of small and occluded corallivorous \textit{Drupella} spp. from coral reef imagery},
   author  = {Shao, Xinlei and Wang, Jiaqi and Magson, Kirsty and Xu, Weitao and Chen, Jundong and Sasaki, Jun and Zhao, Fan},
   year    = {2026},
   note    = {Manuscript submitted for publication}
