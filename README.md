@@ -30,35 +30,19 @@ Corallivorous *Drupella* snails can occur in dense aggregations on branching cor
 ---
 
 ## Overall workflow
-The workflow consists of four stages:
-
-1. Field survey and underwater image acquisition;
-2. Dataset preparation and expert annotation;
-3. Object detection using Drupella-YOLO; and
-4. Post-detection abundance and scale-referenced size estimation.
+The workflow consists of four stages. First, field surveys were conducted to acquire underwater images. Second, the dataset was prepared and annotated by experts. Third, object detection was performed using Drupella-YOLO. Finally, the detection results were used for abundance quantification and scale-referenced size estimation.
 
 <p align="center">
   <img src="images/flowchart.jpg" alt="Overall workflow of the proposed framework for automated *Drupella* spp. detection and post-detection quantification" width="95%">
 </p>
+
 ---
 
 ## Dataset
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two reef sites in Koh Tao, Thailand:
-
-- Chalok Baan Kao Bay;
-- Taa Chaa Bay.
-
-Field surveys were conducted in:
-
-- April 2023;
-- August 2023;
-- January 2024; and
-- September 2024.
-
-The mean sampling depth was approximately 5 m.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024.
 
 ### Dataset composition
 
@@ -72,10 +56,7 @@ Video frames were extracted at 2 s intervals. Visually similar frames were manua
 
 ### Annotation protocol
 
-All images were annotated using LabelImg v1.8.6.
-
-- Annotation target: individual *Drupella* snails;
-- Annotation type: bounding boxes.
+All images were annotated using LabelImg v1.8.6, with individual Drupella snails identified as annotation targets and labeled using bounding boxes. The annotations were saved in the YOLO format for subsequent model training and evaluation.
 
 ### Dataset split
 
@@ -140,16 +121,14 @@ For each image:
 2. Ruler tick points are manually annotated when a visible ruler is available.
 3. A local pixel-to-millimeter conversion factor is calculated from the selected ruler segment.
 4. The diagonal length of each detected bounding box is converted into an approximate physical body length.
-5. Detected individuals are assigned to one of two size classes:
-   - smaller than 2 cm;
-   - 2 cm or larger.
+5. Detected individuals are assigned to one of two size classes: < 2 cm and ≥ 2 cm.
 
 These measurements should be interpreted as two-dimensional, scale-referenced estimates rather than direct three-dimensional shell measurements. Image-level abundance should not be interpreted as standardized population density because the original imagery was not collected using a fixed-area quadrat design.
 
 ---
 
 ## License
-- **Source code:** [MIT License](LICENSE)
+- **Source code:** GNU AGPL v3
 - **Dataset and annotations:** CC BY 4.0
 
 ---
