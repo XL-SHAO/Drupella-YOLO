@@ -35,6 +35,7 @@ The workflow consists of four stages. First, field surveys were conducted to acq
 <p align="center">
   <img src="images/flowchart.jpg" alt="Overall workflow of the proposed framework for automated *Drupella* spp. detection and post-detection quantification" width="95%">
 </p>
+
 ---
 
 ## Dataset
