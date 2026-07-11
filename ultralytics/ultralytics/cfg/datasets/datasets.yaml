@@ -1,0 +1,7 @@
+path: ./datasets/drupella_dataset/images
+train: train
+val: train
+test: test
+nc: 1
+names:
+  0: drupella
