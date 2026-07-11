@@ -135,9 +135,7 @@ For each image:
 2. Ruler tick points are manually annotated when a visible ruler is available.
 3. A local pixel-to-millimeter conversion factor is calculated from the selected ruler segment.
 4. The diagonal length of each detected bounding box is converted into an approximate physical body length.
-5. Detected individuals are assigned to one of two size classes:
-   - smaller than 2 cm;
-   - 2 cm or larger.
+5. Detected individuals are assigned to one of two size classes: < 2 cm and ≥ 2 cm.
 
 These measurements should be interpreted as two-dimensional, scale-referenced estimates rather than direct three-dimensional shell measurements. Image-level abundance should not be interpreted as standardized population density because the original imagery was not collected using a fixed-area quadrat design.
 
