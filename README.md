@@ -67,7 +67,7 @@ The structure above highlights the main project-specific files and directories. 
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024. The resulting field dataset contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats and is available as [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024. The resulting field dataset contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats and is available as [drupella-dataset.zip](https://drive.google.com/file/d/1XklI-QqkpFV6BR6D1ueC_TIYXMJO09-g/view?usp=sharing) contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
 
 ### Dataset composition
 
