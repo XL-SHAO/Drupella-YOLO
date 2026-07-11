@@ -30,11 +30,50 @@ Corallivorous *Drupella* snails can occur in dense aggregations on branching cor
 ---
 
 ## Overall workflow
+
 The workflow consists of four stages. First, field surveys were conducted to acquire underwater images. Second, the dataset was prepared and annotated by experts. Third, object detection was performed using Drupella-YOLO. Finally, the detection results were used for abundance quantification and scale-referenced size estimation.
 
 <p align="center">
   <img src="images/flowchart.jpg" alt="Overall workflow of the proposed framework for automated *Drupella* spp. detection and post-detection quantification" width="95%">
 </p>
+
+---
+
+## Key repository structure
+
+```text
+Drupella-YOLO/
+├── images/
+│   ├── flowchart.jpg
+│   ├── Drupella-YOLO-architecture.jpg
+│   └── ...
+├── ultralytics/
+│   ├── ultralytics/
+│   │   ├── cfg/models/v13/
+│   │   │   ├── yolov13.yaml
+│   │   │   ├── yolov13-2-CFCM.yaml
+│   │   │   ├── yolov13-3-CFCM-HDSA.yaml
+│   │   │   └── yolov13-4-CFCM-HDSA-ISM.yaml
+│   │   ├── nn/mymodules/
+│   │   │   ├── FCM.py
+│   │   │   ├── HDSA.py
+│   │   │   ├── ISM.py
+│   │   │   └── __init__.py
+│   │   └── ...
+│   ├── train.py
+│   ├── predict.py
+│   ├── val.py
+│   ├── heatmap.py
+│   ├── datasets.yaml
+│   └── ...
+├── quantification/
+│   ├── DrupellaQuantification.py
+│   └── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+
+The structure above highlights the main project-specific files and directories. The ultralytics/ directory contains the modified detection framework, model configurations for the baseline and ablation experiments, and the implementations of the CFCM, HDSA, and ISM modules. The quantification/ directory contains the post-detection tool used for abundance estimation, ruler-based scale calibration, approximate body-length estimation, and size-class classification. Figures used in this README are stored in the images/ directory.
 
 ---
 
@@ -86,6 +125,7 @@ dataset/
 │   ├── val/
 │   └── test/
 ├── metadata.txt
+├── data.yaml
 └── classes.txt
 ```
 
@@ -133,18 +173,13 @@ These measurements should be interpreted as two-dimensional, scale-referenced es
 
 ---
 # Citation
-If this dataset or codes contributes to your research, please consider citing our paper:
+If these resources contribute to your research, please consider citing our paper:
 ```LaTeX
 @article{shao2026drupellayolo,
-title = {A deep learning-based approach for automated detection of small and occluded corallivorous *Drupella* spp. from coral reef imagery},
-journal = {},
-volume = {},
-pages = {},
-year = {2026},
-issn = {},
-doi = {},
-url = {},
-author = {Xinlei Shao and Jiaqi Wang and Kirsty Magson and Weitao Xu and Jundong Chen and Jun Sasaki and Fan Zhao}
+  title   = {A deep learning-based approach for automated detection of small and occluded corallivorous Drupella spp. from coral reef imagery},
+  author  = {Shao, Xinlei and Wang, Jiaqi and Magson, Kirsty and Xu, Weitao and Chen, Jundong and Sasaki, Jun and Zhao, Fan},
+  year    = {2026},
+  note    = {Manuscript submitted for publication}
 }
 ```
 # Q & A
