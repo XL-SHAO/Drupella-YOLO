@@ -128,7 +128,7 @@ These measurements should be interpreted as two-dimensional, scale-referenced es
 ---
 
 ## License
-- **Source code:** [MIT License](LICENSE)
+- **Source code:** GNU AGPL v3
 - **Dataset and annotations:** CC BY 4.0
 
 ---
