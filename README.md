@@ -30,12 +30,7 @@ Corallivorous *Drupella* snails can occur in dense aggregations on branching cor
 ---
 
 ## Overall workflow
-The workflow consists of four stages:
-
-1. Field survey and underwater image acquisition;
-2. Dataset preparation and expert annotation;
-3. Object detection using Drupella-YOLO; and
-4. Post-detection abundance and scale-referenced size estimation.
+The workflow consists of four stages. First, field surveys were conducted to acquire underwater images. Second, the dataset was prepared and annotated by experts. Third, object detection was performed using Drupella-YOLO. Finally, the detection results were used for abundance quantification and scale-referenced size estimation.
 
 <p align="center">
   <img src="images/flowchart.jpg" alt="Overall workflow of the proposed framework for automated *Drupella* spp. detection and post-detection quantification" width="95%">
@@ -46,14 +41,7 @@ The workflow consists of four stages:
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two diving sites in Koh Tao, Thailand: Chalok Baan Kao Bay and Taa Chaa Bay. The mean sampling depth was approximately 5 m.
-
-Field surveys were conducted in:
-
-- April 2023;
-- August 2023;
-- January 2024; and
-- September 2024.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024.
 
 ### Dataset composition
 
