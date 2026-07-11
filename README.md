@@ -12,21 +12,6 @@ Dataset, annotations, source code, model configurations, and post-detection quan
 
 Corallivorous *Drupella* snails can occur in dense aggregations on branching corals and may contribute to substantial loss of living coral tissue. Conventional underwater surveys rely heavily on visual inspection and manual counting, which are labor-intensive and may be affected by limited diving time, observer error, coral structural complexity, and partial target occlusion. This project combines underwater imagery, lightweight object detection, and post-detection quantification to support more efficient image-based monitoring of *Drupella* populations. The workflow was developed using data collected in collaboration with the New Heaven Reef Conservation Program in Koh Tao, Thailand.
 
-### Main contributions
-
-- A field dataset [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) containing both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
-- Bounding-box annotations for small, dense, and partially occluded underwater targets.
-- Drupella-YOLO, a lightweight YOLOv13n-based detector incorporating:
-  - Complementary Feature Complementary Mapping (CFCM);
-  - Hierarchical Dual-Stream Attention (HDSA); and
-  - Inverse Sample Module (ISM).
-- Model-comparison and ablation experiments.
-- A post-detection pipeline for:
-  - image-level abundance estimation;
-  - ruler-based pixel-to-millimeter conversion;
-  - approximate body-length estimation; and
-  - size-class classification.
-
 ---
 
 ## Overall workflow
@@ -81,7 +66,7 @@ The structure above highlights the main project-specific files and directories. 
 
 ### Study area and image acquisition
 
-Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024.
+Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namely Chalok Baan Kao Bay and Taa Chaa Bay, at a mean sampling depth of approximately 5 m. Field surveys were conducted in April and August 2023, as well as in January and September 2024. The resulting field dataset contains both still photographs and video-extracted frames of Drupella snails in branching coral habitats and is available as [drupella-dataset.zip](https://drive.google.com/file/d/1t53ldNqqKgMVdKANbA2-X6PaalZo1gXR/view?usp=sharing) contains both still photographs and video-extracted frames of *Drupella* snails in branching coral habitats.
 
 ### Dataset composition
 
