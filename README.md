@@ -37,6 +37,9 @@ The workflow consists of four stages:
 3. Object detection using Drupella-YOLO; and
 4. Post-detection abundance and scale-referenced size estimation.
 
+<p align="center">
+  <img src="images/flowchart.jpg" alt="Overall workflow of the proposed framework for automated *Drupella* spp. detection and post-detection quantification" width="95%">
+</p>
 ---
 
 ## Dataset
@@ -124,7 +127,7 @@ The Hierarchical Dual-Stream Attention module is inserted into the neck to enhan
 The Inverse Sample Module replaces an original upsampling operation in the neck to improve the recovery of fine-grained target boundaries and shell-texture information during multi-scale feature fusion.
 
 <p align="center">
-  <img src="assets/drupella_yolo_architecture.png" alt="Architecture of Drupella-YOLO" width="95%">
+  <img src="images/Drupella-YOLO-architecture.jpg" alt="Architecture of Drupella-YOLO" width="95%">
 </p>
 
 ### Post-detection quantification
