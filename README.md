@@ -74,7 +74,7 @@ Underwater imagery was collected at two diving sites in Koh Tao, Thailand, namel
 | Image source | Camera | Number of images | Original resolution |
 |---|---|---:|---:|
 | Still photographs | Olympus TG-6 | 96 | 4000 × 3000 pixels |
-| Video-extracted frames | GoPro HERO12 Black | 204 | 3940 × 2160 pixels |
+| Video-extracted frames | GoPro HERO12 Black | 204 | 3840 × 2160 pixels |
 | **Total** | — | **300** | — |
 
 Video frames were extracted at 2 s intervals. Visually similar frames were manually removed to reduce redundancy.
