@@ -163,7 +163,7 @@ If these resources contribute to your research, please consider citing our paper
 ```bibtex
 @article{shao2026drupellayolo,
   title  = {A deep learning-based approach for automated detection of small and densely aggregated corallivorous Drupella spp. in coral reef imagery},
-  author = {Shao, Xinlei and Wang, Jiaqi and Magson, Kirsty and Xu, Weitao and Chen, Jundong and Sasaki, Jun and Zhao, Fan},
+  author = {Shao, Xinlei and Wang, Jiaqi and Chen, Jundong and Xu, Weitao and Magson, Kirsty and Sasaki, Jun and Zhao, Fan},
   year   = {2026}
 }
 ```
